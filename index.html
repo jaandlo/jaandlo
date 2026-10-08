@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Jaandlo</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <div class="brand">JAANDLO <span>DEV</span></div>
+    </header>
+
+    <!-- Navegación -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#formacion">Formación</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenedor Principal (Layout de Article y Aside) -->
+    <div class="content-wrapper">
+        
+        <article>
+            <!-- Sección Hero -->
+            <section id="inicio" class="hero section-panel">
+                <div class="hero-content">
+                    <h1>Hola, soy Andrés López, <br>pero puedes llamarme <span class="accent">Jaandlo</span></h1>
+                    <h2>Desarrollador de Software en formación</h2>
+                    <p>Soy estudiante de 5to semestre en Tecnología en desarrollo de Software en la Universidad Tecnológica de Pereira y aspirante a ser el mejor desarrollador Backend y Frontend aprendiendo de las nuevas tecnologías.</p>
+                    <div class="hero-buttons">
+                        <a href="#proyectos" class="btn btn-primary">Explorar Proyectos</a>
+                        <a href="#contacto" class="btn btn-secondary">Contactar</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="img/profile.jpg.jpeg" alt="Foto de Andrés López" class="profile-img">
+                </div>
+            </section>
+
+            <!-- Sección Sobre Mí -->
+            <section id="sobre-mi" class="about section-panel">
+                <h2>Sobre <span class="accent">Mí</span></h2>
+                <div class="about-text">
+                    <p>Soy un joven extrovertido que aspira a grandes metas agarrado de la mano de Jesús. Como estudiante de desarrollo de software, mi pasión es aprender nuevas tecnologías (como arquitecturas modernas, bases de datos avanzadas y diseño UI/UX) y aprender a que la IA sea mi aliada.</p>
+                    <p>Estoy aquí para plasmar en un software cada idea creativa de cualquier tipo de usuario. Mi visión es ser un desarrollador master que no tenga impedimentos para resolver cualquier tipo de reto proporcionado y ofrecer una buena experiencia de usuario.</p>
+                </div>
+            </section>
+
+            <!-- Sección Habilidades -->
+            <section id="habilidades" class="skills section-panel">
+                <h2>Habilidades <span class="accent">Técnicas</span></h2>
+                <div class="grid-cards">
+                    <div class="card">
+                        <h3>HTML5</h3>
+                        <p>Estructuración semántica y accesible de interfaces web.</p>
+                    </div>
+                    <div class="card">
+                        <h3>CSS3</h3>
+                        <p>Diseño responsivo, animaciones y maquetación con Flexbox y Grid.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Java</h3>
+                        <p>Desarrollo de lógica backend y estructuración robusta de aplicaciones.</p>
+                    </div>
+                    <div class="card">
+                        <h3>C</h3>
+                        <p>Fundamentos de programación, manejo de memoria y algoritmos.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Bases de Datos</h3>
+                        <p>Diseño y gestión de modelos de datos eficientes e integrales.</p>
+                    </div>
+                    <div class="card">
+                        <h3>POO</h3>
+                        <p>Programación Orientada a Objetos para código modular y escalable.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Git & GitHub</h3>
+                        <p>Control de versiones y trabajo colaborativo en repositorios.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección Proyectos -->
+            <section id="proyectos" class="projects section-panel">
+                <h2>Proyectos <span class="accent">Destacados</span></h2>
+                <div class="grid-cards projects-grid">
+                    <div class="card project-card">
+                        <div class="project-image">Proyecto 1</div>
+                        <h3>Sistema de Gestión</h3>
+                        <p>Aplicación de consola para la gestión de inventarios y usuarios.</p>
+                        <span class="tech-tag">Java</span> <span class="tech-tag">POO</span>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Código Fuente</a>
+                        </div>
+                    </div>
+                    <div class="card project-card">
+                        <img src="img/landing page.jpeg" alt="Proyecto Landing Page Tecnológica" class="project-image">
+                        <h3>Landing Page Tecnológica</h3>
+                        <p>Diseño estático moderno y responsivo para una startup ficticia.</p>
+                        <span class="tech-tag">HTML5</span> <span class="tech-tag">CSS3</span>
+                        <div class="project-links">
+                            <a href="https://github.com/jaandlo/PORTAFOLIO-MY-CV.git" target="_blank" class="btn btn-small">Código Fuente</a>
+                            <a href="https://jaandlo.github.io/PORTAFOLIO-MY-CV" target="_blank" class="btn btn-small btn-outline">Demo</a>
+                        </div>
+                    </div>
+                    <div class="card project-card">
+                        <img src="img/coca-cola_web.jpeg" alt="Proyecto Coca-Cola Web" class="project-image">
+                        <h3>COCA-COLA WEB</h3>
+                        <p>Página publicitaria con interfaz gráfica interactiva de una forma simple.</p>
+                        <span class="tech-tag">HTML5</span> <span class="tech-tag">CSS3</span>
+                        <div class="project-links">
+                            <a href="https://github.com/jaandlo/Coca-Cola.git" target="_blank" class="btn btn-small">Código Fuente</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Sección Formación -->
+            <section id="formacion" class="academic section-panel">
+                <h2>Formación <span class="accent">Académica</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Tecnología en Desarrollo de Software</h3>
+                        <h4>Universidad Tecnológica de Pereira (UTP)</h4>
+                        <p>Cursando actualmente el 5to semestre. Enfoque en arquitectura de software, bases de datos y desarrollo Fullstack.</p>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <!-- Barra Lateral (Contacto) -->
+        <aside id="contacto" class="section-panel">
+            <h2>Contacto</h2>
+            <p>¿Tienes un proyecto en mente o una oportunidad profesional? ¡Hablemos!</p>
+            <div class="contact-info">
+                <p><strong>WhatsApp:</strong> <a href="tel:+573028335815">3028335815</a></p>
+                <p><strong>Email:</strong> <a href="mailto:jairo.lopez@utp.edu.co">jairo.lopez@utp.edu.co</a></p>
+            </div>
+            <div class="social-links">
+                <a href="#" class="btn btn-outline" target="_blank">LinkedIn</a>
+                <a href="#" class="btn btn-outline" target="_blank">GitHub</a>
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Andrés López (Jaandlo). Desarrollador en formación.</p>
+        <p>Construyendo el futuro, línea por línea.</p>
+    </footer>
+
+</body>
+</html>
